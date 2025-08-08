@@ -3,6 +3,18 @@
 ## 概览：
 ![img.png](img.png)
 
+## 使用：
+**使用前需配置LLM api。如：**
+1. 在阿里百炼平台注册api key
+2. 配置环境变量 变量名：aliQwen-api 变量值：你的API KEY
+
+**版本：**
+python>=3.11。
+python包全部默认最新即可。
+
+**前后端启动：** 后端main.py启动；前端没服务器，直接打开index.html
+
+
 ## 功能：
 
 这个FAQ RAG Agent是一个基于检索增强生成（Retrieval-Augmented Generation）技术的问答系统，能够根据上传的CSV文件数据回答用户问题。系统通过向量数据库存储和检索相关信息，结合大型语言模型生成准确的回答。
@@ -37,3 +49,4 @@
 | `/upload-csv` | POST | 上传CSV文件并更新向量数据库 |
 | `/delete-csv` | DELETE | 删除CSV文件并清理向量数据库 |
 | `/reload-vectordb` | POST | 重新加载向量数据库 |
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI FAQ 助手</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                <h1>AI FAQ 助手</h1>
+            </div>
+            <div class="admin-controls">
+                <label for="csv-upload" class="admin-button" title="上传CSV文件">
+                    <i class="fas fa-upload"></i>
+                    <span>更新知识库</span>
+                </label>
+                <input type="file" id="csv-upload" accept=".csv" style="display: none;">
+<!--                <button id="delete-csv" class="admin-button" title="删除CSV文件">-->
+<!--                    <i class="fas fa-trash"></i>-->
+<!--                    <span>删除CSV</span>-->
+<!--                </button>-->
+            </div>
+        </div>
+
+        <div class="chat-messages" id="chat-messages">
+            <div class="message bot">
+                <div class="avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="message-content">
+                    <p>你好！我是AI FAQ助手，我知道Python、AI、RAG等知识。有什么可以帮助您？</p>
+                    <p> - 本项目使用rag检索向量化的.csv文件知识库来回答用户问题 </p>
+                    <p> - 向量化模型：all-MiniLM-L6-v2 </p>
+                    <p> - 向量化搜索工具：Faiss </p>
+                    <p> - AI被禁止回答与知识库知识无关的问题 </p>
+                    <p> - @Zhiwen Liu 2025/08/07 </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <textarea id="user-input" placeholder="输入你的问题..." rows="1"></textarea>
+            <button id="send-button">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- 通知弹窗 -->
+    <div id="notification" class="notification">
+        <span id="notification-message"></span>
+        <button id="notification-close"><i class="fas fa-times"></i></button>
+    </div>
+
+    <!-- 确认对话框 -->
+    <div id="confirm-dialog" class="dialog">
+        <div class="dialog-content">
+            <h3>确认操作</h3>
+            <p id="confirm-message">确定要执行此操作吗？</p>
+            <div class="dialog-buttons">
+                <button id="confirm-cancel">取消</button>
+                <button id="confirm-ok">确定</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

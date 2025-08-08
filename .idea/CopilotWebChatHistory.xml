@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotWebChatHistory">
+    <option name="currentConversation">
+      <WebConversation>
+        <option name="session">
+          <ChatSession>
+            <option name="messages">
+              <list>
+                <UIChatMessage>
+                  <option name="command" value="" />
+                  <option name="content" value="D:\Environment\Anaconda\envs\AI311\python.exe &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\main.py&quot; &#10; 加载已有向量数据库...&#10;Traceback (most recent call last):&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\main.py&quot;, line 1, in &lt;module&gt;&#10;    from app.api.api import app&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\api\api.py&quot;, line 5, in &lt;module&gt;&#10;    from app.services.llm_service import generate_answer_stream&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\services\llm_service.py&quot;, line 5, in &lt;module&gt;&#10;    from app.services.rag import retriever&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\services\rag.py&quot;, line 138, in &lt;module&gt;&#10;    vectorstore = FAISS.load_local(&#10;                  ^^^^^^^^^^^^^^^^^&#10;  File &quot;D:\Environment\Anaconda\envs\AI311\Lib\site-packages\langchain_community\vectorstores\faiss.py&quot;, line 1205, in load_local&#10;    index = faiss.read_index(str(path / f&quot;{index_name}.faiss&quot;))&#10;            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;  File &quot;D:\Environment\Anaconda\envs\AI311\Lib\site-packages\faiss\swigfaiss_avx2.py&quot;, line 11141, in read_index&#10;    return _swigfaiss_avx2.read_index(*args)&#10;           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;RuntimeError: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\data\faq_faiss\index.faiss for reading: No such file or directory&#10;" />
+                  <option name="cost" value="0" />
+                  <option name="createdAt" value="1754640310313" />
+                  <option name="localReferences">
+                    <list>
+                      <LocalReferences>
+                        <option name="isRequestStage" value="true" />
+                        <option name="range">
+                          <RefRange />
+                        </option>
+                        <option name="uri" value="{&quot;path&quot;:&quot;file:///D:/Desktop/文件归档/_PythonAI学习计划/项目/3%20简单项目FAQ/app/services/rag.py&quot;}" />
+                      </LocalReferences>
+                    </list>
+                  </option>
+                  <option name="parser">
+                    <SimpleMarkdownStreamParser>
+                      <option name="columns">
+                        <list>
+                          <option value="102" />
+                          <option value="14" />
+                          <option value="33" />
+                          <option value="83" />
+                          <option value="30" />
+                          <option value="86" />
+                          <option value="62" />
+                          <option value="99" />
+                          <option value="41" />
+                          <option value="93" />
+                          <option value="34" />
+                          <option value="34" />
+                          <option value="128" />
+                          <option value="62" />
+                          <option value="62" />
+                          <option value="111" />
+                          <option value="43" />
+                          <option value="43" />
+                          <option value="282" />
+                        </list>
+                      </option>
+                      <option name="content" value="D:\Environment\Anaconda\envs\AI311\python.exe &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\main.py&quot; &#10; 加载已有向量数据库...&#10;Traceback (most recent call last):&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\main.py&quot;, line 1, in &lt;module&gt;&#10;    from app.api.api import app&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\api\api.py&quot;, line 5, in &lt;module&gt;&#10;    from app.services.llm_service import generate_answer_stream&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\services\llm_service.py&quot;, line 5, in &lt;module&gt;&#10;    from app.services.rag import retriever&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\services\rag.py&quot;, line 138, in &lt;module&gt;&#10;    vectorstore = FAISS.load_local(&#10;                  ^^^^^^^^^^^^^^^^^&#10;  File &quot;D:\Environment\Anaconda\envs\AI311\Lib\site-packages\langchain_community\vectorstores\faiss.py&quot;, line 1205, in load_local&#10;    index = faiss.read_index(str(path / f&quot;{index_name}.faiss&quot;))&#10;            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;  File &quot;D:\Environment\Anaconda\envs\AI311\Lib\site-packages\faiss\swigfaiss_avx2.py&quot;, line 11141, in read_index&#10;    return _swigfaiss_avx2.read_index(*args)&#10;           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;RuntimeError: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\data\faq_faiss\index.faiss for reading: No such file or directory&#10;" />
+                      <option name="nodes">
+                        <list>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="D:\Environment\Anaconda\envs\AI311\python.exe &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\main.py&quot; " />
+                            <option name="contentId" value="462521352" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" 加载已有向量数据库..." />
+                            <option name="contentId" value="-1861187228" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="Traceback (most recent call last):" />
+                            <option name="contentId" value="842358957" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\main.py&quot;, line 1, in &lt;module&gt;" />
+                            <option name="contentId" value="1608111939" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="    from app.api.api import app" />
+                            <option name="contentId" value="-336727709" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\api\api.py&quot;, line 5, in &lt;module&gt;" />
+                            <option name="contentId" value="-851449254" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="    from app.services.llm_service import generate_answer_stream" />
+                            <option name="contentId" value="160403784" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\services\llm_service.py&quot;, line 5, in &lt;module&gt;" />
+                            <option name="contentId" value="-1240313325" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="    from app.services.rag import retriever" />
+                            <option name="contentId" value="1936948624" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\services\rag.py&quot;, line 138, in &lt;module&gt;" />
+                            <option name="contentId" value="1353074173" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="    vectorstore = FAISS.load_local(" />
+                            <option name="contentId" value="-696340303" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="                  ^^^^^^^^^^^^^^^^^" />
+                            <option name="contentId" value="1451359838" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="  File &quot;D:\Environment\Anaconda\envs\AI311\Lib\site-packages\langchain_community\vectorstores\faiss.py&quot;, line 1205, in load_local" />
+                            <option name="contentId" value="-263288365" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="    index = faiss.read_index(str(path / f&quot;{index_name}.faiss&quot;))" />
+                            <option name="contentId" value="-317079467" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" />
+                            <option name="contentId" value="415283870" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="  File &quot;D:\Environment\Anaconda\envs\AI311\Lib\site-packages\faiss\swigfaiss_avx2.py&quot;, line 11141, in read_index" />
+                            <option name="contentId" value="2088976120" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="    return _swigfaiss_avx2.read_index(*args)" />
+                            <option name="contentId" value="889784836" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" />
+                            <option name="contentId" value="-1985422274" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="RuntimeError: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\data\faq_faiss\index.faiss for reading: No such file or directory" />
+                            <option name="contentId" value="-722348394" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="false" />
+                            <option name="type" value="undetermined" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                        </list>
+                      </option>
+                      <option name="parserState">
+                        <ParserState>
+                          <option name="line" value="19" />
+                          <option name="column" value="-1" />
+                          <option name="offset" value="1480" />
+                          <option name="moveCursor" value="true" />
+                          <option name="tagBuffer" value="&lt;" />
+                        </ParserState>
+                      </option>
+                    </SimpleMarkdownStreamParser>
+                  </option>
+                  <option name="role" value="user" />
+                  <option name="selectedRanges">
+                    <list />
+                  </option>
+                  <option name="uri" value="" />
+                  <option name="variables">
+                    <list />
+                  </option>
+                </UIChatMessage>
+                <UIChatMessage>
+                  <option name="actions">
+                    <list />
+                  </option>
+                  <option name="codebaseReferences">
+                    <list />
+                  </option>
+                  <option name="codebaseStatus" value="init" />
+                  <option name="command" value="" />
+                  <option name="content" value=" 从错误信息来看，`faiss.load_local` 函数在尝试加载向量数据库时，找不到指定的文件路径。具体来说，错误信息指出无法打开 `D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\data\faq_faiss\index.faiss` 文件进行读取，因为该文件不存在。&#10;&#10;以下是一些可能的解决方案：&#10;&#10;1. **检查文件路径**：&#10;   - 确保 `FAISS_PATH` 变量指向的路径是正确的。你可以使用 `os.path.abspath` 和 `os.path.join` 来构建路径，以确保路径在不同操作系统下都能正确解析。&#10;   - 例如：&#10;     ```python&#10;     import os&#10;     FAISS_PATH = os.path.join(&quot;data&quot;, &quot;faq_faiss&quot;, &quot;index.faiss&quot;)&#10;     ```&#10;&#10;2. **创建目录**：&#10;   - 如果路径中的某些目录不存在，可以使用 `os.makedirs` 创建这些目录。&#10;   - 例如：&#10;     ```python&#10;     import os&#10;     os.makedirs(&quot;data&quot;, exist_ok=True)&#10;     os.makedirs(&quot;data&quot;, &quot;faq_faiss&quot;, exist_ok=True)&#10;     ```&#10;&#10;3. **检查文件是否存在**：&#10;   - 在加载向量数据库之前，使用 `os.path.exists` 检查文件是否存在。&#10;   - 例如：&#10;     ```python&#10;     if os.path.exists(FAISS_PATH):&#10;         vectorstore = FAISS.load_local(FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)&#10;     else:&#10;         print(&quot;向量数据库文件不存在，创建新的向量数据库...&quot;)&#10;         faq_docs = load_faq_docs(CSV_PATH)&#10;         vectorstore = FAISS.from_documents(faq_docs, embedding_model)&#10;         vectorstore.save_local(FAISS_PATH)&#10;     ```&#10;&#10;4. **异常处理**：&#10;   - 使用 `try-except` 块捕获 `FileNotFoundError` 异常，并给出更友好的错误信息。&#10;   - 例如：&#10;     ```python&#10;     import os&#10;     try:&#10;         vectorstore = FAISS.load_local(FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)&#10;     except FileNotFoundError as e:&#10;         print(f&quot;无法加载向量数据库文件: {e}&quot;)&#10;         print(f&quot;请检查路径: {FAISS_PATH}&quot;)&#10;         # 创建新的向量数据库&#10;         faq_docs = load_faq_docs(CSV_PATH)&#10;         vectorstore = FAISS.from_documents(faq_docs, embedding_model)&#10;         vectorstore.save_local(FAISS_PATH)&#10;     ```&#10;&#10;通过以上步骤，你可以确保在加载向量数据库时，路径是正确的，并且文件存在。如果文件不存在，代码会创建新的向量数据库文件。这样可以避免 `No such file or directory` 错误。" />
+                  <option name="cost" value="14467" />
+                  <option name="createdAt" value="1754640324809" />
+                  <option name="followup">
+                    <list />
+                  </option>
+                  <option name="id" value="019888b660297ddda76961ca84098c56" />
+                  <option name="knowledgeReferences">
+                    <list />
+                  </option>
+                  <option name="localReferences">
+                    <list>
+                      <LocalReferences>
+                        <option name="isRequestStage" value="true" />
+                        <option name="range">
+                          <RefRange />
+                        </option>
+                        <option name="uri" value="{&quot;path&quot;:&quot;file:///D:/Desktop/文件归档/_PythonAI学习计划/项目/3%20简单项目FAQ/app/services/rag.py&quot;}" />
+                      </LocalReferences>
+                    </list>
+                  </option>
+                  <option name="parser">
+                    <SimpleMarkdownStreamParser>
+                      <option name="columns">
+                        <list>
+                          <option value="156" />
+                          <option value="-1" />
+                          <option value="12" />
+                          <option value="-1" />
+                          <option value="13" />
+                          <option value="99" />
+                          <option value="7" />
+                          <option value="13" />
+                          <option value="13" />
+                          <option value="65" />
+                          <option value="7" />
+                          <option value="-1" />
+                          <option value="11" />
+                          <option value="44" />
+                          <option value="7" />
+                          <option value="13" />
+                          <option value="13" />
+                          <option value="38" />
+                          <option value="51" />
+                          <option value="7" />
+                          <option value="-1" />
+                          <option value="15" />
+                          <option value="44" />
+                          <option value="7" />
+                          <option value="13" />
+                          <option value="34" />
+                          <option value="105" />
+                          <option value="9" />
+                          <option value="40" />
+                          <option value="42" />
+                          <option value="69" />
+                          <option value="42" />
+                          <option value="7" />
+                          <option value="-1" />
+                          <option value="11" />
+                          <option value="59" />
+                          <option value="7" />
+                          <option value="13" />
+                          <option value="13" />
+                          <option value="8" />
+                          <option value="105" />
+                          <option value="34" />
+                          <option value="34" />
+                          <option value="37" />
+                          <option value="19" />
+                          <option value="42" />
+                          <option value="69" />
+                          <option value="42" />
+                          <option value="7" />
+                          <option value="-1" />
+                          <option value="96" />
+                        </list>
+                      </option>
+                      <option name="content" value=" 从错误信息来看，`faiss.load_local` 函数在尝试加载向量数据库时，找不到指定的文件路径。具体来说，错误信息指出无法打开 `D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\data\faq_faiss\index.faiss` 文件进行读取，因为该文件不存在。&#10;&#10;以下是一些可能的解决方案：&#10;&#10;1. **检查文件路径**：&#10;   - 确保 `FAISS_PATH` 变量指向的路径是正确的。你可以使用 `os.path.abspath` 和 `os.path.join` 来构建路径，以确保路径在不同操作系统下都能正确解析。&#10;   - 例如：&#10;     ```python&#10;     import os&#10;     FAISS_PATH = os.path.join(&quot;data&quot;, &quot;faq_faiss&quot;, &quot;index.faiss&quot;)&#10;     ```&#10;&#10;2. **创建目录**：&#10;   - 如果路径中的某些目录不存在，可以使用 `os.makedirs` 创建这些目录。&#10;   - 例如：&#10;     ```python&#10;     import os&#10;     os.makedirs(&quot;data&quot;, exist_ok=True)&#10;     os.makedirs(&quot;data&quot;, &quot;faq_faiss&quot;, exist_ok=True)&#10;     ```&#10;&#10;3. **检查文件是否存在**：&#10;   - 在加载向量数据库之前，使用 `os.path.exists` 检查文件是否存在。&#10;   - 例如：&#10;     ```python&#10;     if os.path.exists(FAISS_PATH):&#10;         vectorstore = FAISS.load_local(FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)&#10;     else:&#10;         print(&quot;向量数据库文件不存在，创建新的向量数据库...&quot;)&#10;         faq_docs = load_faq_docs(CSV_PATH)&#10;         vectorstore = FAISS.from_documents(faq_docs, embedding_model)&#10;         vectorstore.save_local(FAISS_PATH)&#10;     ```&#10;&#10;4. **异常处理**：&#10;   - 使用 `try-except` 块捕获 `FileNotFoundError` 异常，并给出更友好的错误信息。&#10;   - 例如：&#10;     ```python&#10;     import os&#10;     try:&#10;         vectorstore = FAISS.load_local(FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)&#10;     except FileNotFoundError as e:&#10;         print(f&quot;无法加载向量数据库文件: {e}&quot;)&#10;         print(f&quot;请检查路径: {FAISS_PATH}&quot;)&#10;         # 创建新的向量数据库&#10;         faq_docs = load_faq_docs(CSV_PATH)&#10;         vectorstore = FAISS.from_documents(faq_docs, embedding_model)&#10;         vectorstore.save_local(FAISS_PATH)&#10;     ```&#10;&#10;通过以上步骤，你可以确保在加载向量数据库时，路径是正确的，并且文件存在。如果文件不存在，代码会创建新的向量数据库文件。这样可以避免 `No such file or directory` 错误。&#10;" />
+                      <option name="nodes">
+                        <list>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value=" 从错误信息来看，`faiss.load_local` 函数在尝试加载向量数据库时，找不到指定的文件路径。具体来说，错误信息指出无法打开 `D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\data\faq_faiss\index.faiss` 文件进行读取，因为该文件不存在。" />
+                            <option name="contentId" value="-1436471638" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="以下是一些可能的解决方案：" />
+                            <option name="contentId" value="-1913856247" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="1. **检查文件路径**：" />
+                            <option name="contentId" value="-2000341042" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="确保 `FAISS_PATH` 变量指向的路径是正确的。你可以使用 `os.path.abspath` 和 `os.path.join` 来构建路径，以确保路径在不同操作系统下都能正确解析。" />
+                            <option name="contentId" value="1841678755" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="例如：" />
+                            <option name="contentId" value="20344483" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="import os&#10;FAISS_PATH = os.path.join(&quot;data&quot;, &quot;faq_faiss&quot;, &quot;index.faiss&quot;)&#10;" />
+                            <option name="contentId" value="109256487" />
+                            <option name="expectEnding" value="     ```" />
+                            <option name="indentSize" value="5" />
+                            <option name="language" value="python" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="2. **创建目录**：" />
+                            <option name="contentId" value="1171519312" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="如果路径中的某些目录不存在，可以使用 `os.makedirs` 创建这些目录。" />
+                            <option name="contentId" value="1366560354" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="例如：" />
+                            <option name="contentId" value="20344483" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="import os&#10;os.makedirs(&quot;data&quot;, exist_ok=True)&#10;os.makedirs(&quot;data&quot;, &quot;faq_faiss&quot;, exist_ok=True)&#10;" />
+                            <option name="contentId" value="-1525840110" />
+                            <option name="expectEnding" value="     ```" />
+                            <option name="indentSize" value="5" />
+                            <option name="language" value="python" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="3. **检查文件是否存在**：" />
+                            <option name="contentId" value="851637914" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="在加载向量数据库之前，使用 `os.path.exists` 检查文件是否存在。" />
+                            <option name="contentId" value="-1640378837" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="例如：" />
+                            <option name="contentId" value="20344483" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="if os.path.exists(FAISS_PATH):&#10;    vectorstore = FAISS.load_local(FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)&#10;else:&#10;    print(&quot;向量数据库文件不存在，创建新的向量数据库...&quot;)&#10;    faq_docs = load_faq_docs(CSV_PATH)&#10;    vectorstore = FAISS.from_documents(faq_docs, embedding_model)&#10;    vectorstore.save_local(FAISS_PATH)&#10;" />
+                            <option name="contentId" value="-1449834598" />
+                            <option name="expectEnding" value="     ```" />
+                            <option name="indentSize" value="5" />
+                            <option name="language" value="python" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="4. **异常处理**：" />
+                            <option name="contentId" value="-191994372" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="使用 `try-except` 块捕获 `FileNotFoundError` 异常，并给出更友好的错误信息。" />
+                            <option name="contentId" value="-2088824697" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="例如：" />
+                            <option name="contentId" value="20344483" />
+                            <option name="indentSize" value="3" />
+                            <option name="settled" value="true" />
+                            <option name="startSymbol" value="-" />
+                            <option name="type" value="list-item" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="import os&#10;try:&#10;    vectorstore = FAISS.load_local(FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)&#10;except FileNotFoundError as e:&#10;    print(f&quot;无法加载向量数据库文件: {e}&quot;)&#10;    print(f&quot;请检查路径: {FAISS_PATH}&quot;)&#10;    # 创建新的向量数据库&#10;    faq_docs = load_faq_docs(CSV_PATH)&#10;    vectorstore = FAISS.from_documents(faq_docs, embedding_model)&#10;    vectorstore.save_local(FAISS_PATH)&#10;" />
+                            <option name="contentId" value="686835345" />
+                            <option name="expectEnding" value="     ```" />
+                            <option name="indentSize" value="5" />
+                            <option name="language" value="python" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="code-block" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="通过以上步骤，你可以确保在加载向量数据库时，路径是正确的，并且文件存在。如果文件不存在，代码会创建新的向量数据库文件。这样可以避免 `No such file or directory` 错误。" />
+                            <option name="contentId" value="-62742115" />
+                            <option name="settled" value="true" />
+                            <option name="type" value="line" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                          <MarkdownNode>
+                            <option name="children">
+                              <list />
+                            </option>
+                            <option name="content" value="" />
+                            <option name="contentId" value="0" />
+                            <option name="settled" value="false" />
+                            <option name="type" value="undetermined" />
+                            <option name="xmlData">
+                              <XmlNode />
+                            </option>
+                          </MarkdownNode>
+                        </list>
+                      </option>
+                      <option name="parserState">
+                        <ParserState>
+                          <option name="line" value="51" />
+                          <option name="column" value="-1" />
+                          <option name="offset" value="1688" />
+                          <option name="moveCursor" value="true" />
+                        </ParserState>
+                      </option>
+                    </SimpleMarkdownStreamParser>
+                  </option>
+                  <option name="references">
+                    <list />
+                  </option>
+                  <option name="role" value="assistant" />
+                  <option name="topic" value="" />
+                </UIChatMessage>
+              </list>
+            </option>
+            <option name="messagesV3">
+              <list>
+                <ChatMessageV3>
+                  <option name="role" value="user" />
+                  <option name="content" value="D:\Environment\Anaconda\envs\AI311\python.exe &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\main.py&quot; &#10; 加载已有向量数据库...&#10;Traceback (most recent call last):&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\main.py&quot;, line 1, in &lt;module&gt;&#10;    from app.api.api import app&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\api\api.py&quot;, line 5, in &lt;module&gt;&#10;    from app.services.llm_service import generate_answer_stream&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\services\llm_service.py&quot;, line 5, in &lt;module&gt;&#10;    from app.services.rag import retriever&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\services\rag.py&quot;, line 138, in &lt;module&gt;&#10;    vectorstore = FAISS.load_local(&#10;                  ^^^^^^^^^^^^^^^^^&#10;  File &quot;D:\Environment\Anaconda\envs\AI311\Lib\site-packages\langchain_community\vectorstores\faiss.py&quot;, line 1205, in load_local&#10;    index = faiss.read_index(str(path / f&quot;{index_name}.faiss&quot;))&#10;            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;  File &quot;D:\Environment\Anaconda\envs\AI311\Lib\site-packages\faiss\swigfaiss_avx2.py&quot;, line 11141, in read_index&#10;    return _swigfaiss_avx2.read_index(*args)&#10;           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;RuntimeError: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\data\faq_faiss\index.faiss for reading: No such file or directory&#10;" />
+                  <option name="extra">
+                    <ChatMessageExtra>
+                      <option name="agent" value="default" />
+                      <option name="cmd" value="default" />
+                      <option name="code" value="        tolyzo evxglihgliv, ivgirvevi&#10;        # 创建一个空的向量存储并保存到磁盘&#10;        vnkgb_wlxh = [Wlxfnvmg(kztv_xlmgvmg=&quot;&quot;)]&#10;        evxglihgliv = UZRHH.uiln_wlxfnvmgh(vnkgb_wlxh, vnyvwwrmt_nlwvo)&#10;        evxglihgliv.hzev_olxzo(UZRHH_KZGS)&#10;        ivgirvevi = evxglihgliv.zh_ivgirvevi(hvzixs_pdzith={&quot;p&quot;: 6})&#10;        &#10;        ivgfim {&quot;hfxxvhh&quot;: Gifv, &quot;nvhhztv&quot;: &quot;XHE文件已重置并清空了向量数据库&quot;}&#10;    &#10;    vcxvkg Vcxvkgrlm zh v:&#10;        ivgfim {&quot;hfxxvhh&quot;: Uzohv, &quot;nvhhztv&quot;: u&quot;删除XHE文件时出错: {hgi(v)}&quot;}&#10;&#10;# === 构建Ivgirvevi ===&#10;vnyvwwrmt_nlwvo = SfttrmtUzxvVnyvwwrmth(nlwvo_mznv=&quot;zoo-NrmrON-O3-e7&quot;)&#10;ru lh.kzgs.vcrhgh(UZRHH_KZGS):&#10;    kirmg(&quot; 加载已有向量数据库...&quot;)&#10;    evxglihgliv = UZRHH.olzw_olxzo(&#10;        UZRHH_KZGS,&#10;        vnyvwwrmt_nlwvo,&#10;        zoold_wzmtvilfh_wvhvirzorazgrlm=Gifv&#10;    )&#10;vohv:&#10;    kirmg(&quot;⚡ 首次构建向量数据库...&quot;)&#10;    uzj_wlxh = olzw_uzj_wlxh(XHE_KZGS)&#10;    evxglihgliv = UZRHH.uiln_wlxfnvmgh(uzj_wlxh, vnyvwwrmt_nlwvo)&#10;    evxglihgliv.hzev_olxzo(UZRHH_KZGS)&#10;&#10;ivgirvevi = evxglihgliv.zh_ivgirvevi(hvzixs_pdzith={&quot;p&quot;: 6})&#10;&#10;" />
+                      <option name="path" value="D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\services\rag.py" />
+                    </ChatMessageExtra>
+                  </option>
+                </ChatMessageV3>
+                <ChatMessageV3>
+                  <option name="role" value="assistant" />
+                  <option name="content" value=" 从错误信息来看，`faiss.load_local` 函数在尝试加载向量数据库时，找不到指定的文件路径。具体来说，错误信息指出无法打开 `D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\data\faq_faiss\index.faiss` 文件进行读取，因为该文件不存在。&#10;&#10;以下是一些可能的解决方案：&#10;&#10;1. **检查文件路径**：&#10;   - 确保 `FAISS_PATH` 变量指向的路径是正确的。你可以使用 `os.path.abspath` 和 `os.path.join` 来构建路径，以确保路径在不同操作系统下都能正确解析。&#10;   - 例如：&#10;     ```python&#10;     import os&#10;     FAISS_PATH = os.path.join(&quot;data&quot;, &quot;faq_faiss&quot;, &quot;index.faiss&quot;)&#10;     ```&#10;&#10;2. **创建目录**：&#10;   - 如果路径中的某些目录不存在，可以使用 `os.makedirs` 创建这些目录。&#10;   - 例如：&#10;     ```python&#10;     import os&#10;     os.makedirs(&quot;data&quot;, exist_ok=True)&#10;     os.makedirs(&quot;data&quot;, &quot;faq_faiss&quot;, exist_ok=True)&#10;     ```&#10;&#10;3. **检查文件是否存在**：&#10;   - 在加载向量数据库之前，使用 `os.path.exists` 检查文件是否存在。&#10;   - 例如：&#10;     ```python&#10;     if os.path.exists(FAISS_PATH):&#10;         vectorstore = FAISS.load_local(FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)&#10;     else:&#10;         print(&quot;向量数据库文件不存在，创建新的向量数据库...&quot;)&#10;         faq_docs = load_faq_docs(CSV_PATH)&#10;         vectorstore = FAISS.from_documents(faq_docs, embedding_model)&#10;         vectorstore.save_local(FAISS_PATH)&#10;     ```&#10;&#10;4. **异常处理**：&#10;   - 使用 `try-except` 块捕获 `FileNotFoundError` 异常，并给出更友好的错误信息。&#10;   - 例如：&#10;     ```python&#10;     import os&#10;     try:&#10;         vectorstore = FAISS.load_local(FAISS_PATH, embedding_model, allow_dangerous_deserialization=True)&#10;     except FileNotFoundError as e:&#10;         print(f&quot;无法加载向量数据库文件: {e}&quot;)&#10;         print(f&quot;请检查路径: {FAISS_PATH}&quot;)&#10;         # 创建新的向量数据库&#10;         faq_docs = load_faq_docs(CSV_PATH)&#10;         vectorstore = FAISS.from_documents(faq_docs, embedding_model)&#10;         vectorstore.save_local(FAISS_PATH)&#10;     ```&#10;&#10;通过以上步骤，你可以确保在加载向量数据库时，路径是正确的，并且文件存在。如果文件不存在，代码会创建新的向量数据库文件。这样可以避免 `No such file or directory` 错误。" />
+                  <option name="extra">
+                    <ChatMessageExtra />
+                  </option>
+                </ChatMessageV3>
+              </list>
+            </option>
+            <option name="sessionId" value="019888b134427ddda7695680556d4e64" />
+          </ChatSession>
+        </option>
+        <option name="conversationId" value="019888b134427ddda7695680556d4e64" />
+        <option name="conversation">
+          <Conversation>
+            <option name="createTime" value="1754639967180" />
+            <option name="id" value="019888b134427ddda7695680556d4e64" />
+            <option name="title" value="D:\Environment\Anaconda\envs\AI311\python.exe &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\main.py&quot; &#10; 加载已有向量数据库...&#10;Traceback (most recent call last):&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\main.py&quot;, line 1, in &lt;module&gt;&#10;    from app.api.api import app&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\api\api.py&quot;, line 5, in &lt;module&gt;&#10;    from app.services.llm_service import generate_answer_stream&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\services\llm_service.py&quot;, line 5, in &lt;module&gt;&#10;    from app.services.rag import retriever&#10;  File &quot;D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\app\services\rag.py&quot;, line 138, in &lt;module&gt;&#10;    vectorstore = FAISS.load_local(&#10;                  ^^^^^^^^^^^^^^^^^&#10;  File &quot;D:\Environment\Anaconda\envs\AI311\Lib\site-packages\langchain_community\vectorstores\faiss.py&quot;, line 1205, in load_local&#10;    index = faiss.read_index(str(path / f&quot;{index_name}.faiss&quot;))&#10;            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;  File &quot;D:\Environment\Anaconda\envs\AI311\Lib\site-packages\faiss\swigfaiss_avx2.py&quot;, line 11141, in read_index&#10;    return _swigfaiss_avx2.read_index(*args)&#10;           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;RuntimeError: Error in __cdecl faiss::FileIOReader::FileIOReader(const char *) at D:\a\faiss-wheels\faiss-wheels\faiss\faiss\impl\io.cpp:68: Error: 'f' failed: could not open D:\Desktop\文件归档\_PythonAI学习计划\项目\3 简单项目FAQ\data\faq_faiss\index.faiss for reading: No such file or directory&#10;" />
+            <option name="turns">
+              <list>
+                <Turn>
+                  <option name="agent" value="" />
+                  <option name="answer" value=" 从错误信息来看，`uzrhh.olzw_olxzo` 函数在尝试加载向量数据库时，找不到指定的文件路径。具体来说，错误信息指出无法打开 `W:\Wvhpglk\文件归档\_KbgslmZR学习计划\项目\6 简单项目UZJ\wzgz\uzj_uzrhh\rmwvc.uzrhh` 文件进行读取，因为该文件不存在。&#10;&#10;以下是一些可能的解决方案：&#10;&#10;8. **检查文件路径**：&#10;   - 确保 `UZRHH_KZGS` 变量指向的路径是正确的。你可以使用 `lh.kzgs.zyhkzgs` 和 `lh.kzgs.qlrm` 来构建路径，以确保路径在不同操作系统下都能正确解析。&#10;   - 例如：&#10;     ```kbgslm&#10;     rnklig lh&#10;     UZRHH_KZGS = lh.kzgs.qlrm(&quot;wzgz&quot;, &quot;uzj_uzrhh&quot;, &quot;rmwvc.uzrhh&quot;)&#10;     ```&#10;&#10;7. **创建目录**：&#10;   - 如果路径中的某些目录不存在，可以使用 `lh.nzpvwrih` 创建这些目录。&#10;   - 例如：&#10;     ```kbgslm&#10;     rnklig lh&#10;     lh.nzpvwrih(&quot;wzgz&quot;, vcrhg_lp=Gifv)&#10;     lh.nzpvwrih(&quot;wzgz&quot;, &quot;uzj_uzrhh&quot;, vcrhg_lp=Gifv)&#10;     ```&#10;&#10;6. **检查文件是否存在**：&#10;   - 在加载向量数据库之前，使用 `lh.kzgs.vcrhgh` 检查文件是否存在。&#10;   - 例如：&#10;     ```kbgslm&#10;     ru lh.kzgs.vcrhgh(UZRHH_KZGS):&#10;         evxglihgliv = UZRHH.olzw_olxzo(UZRHH_KZGS, vnyvwwrmt_nlwvo, zoold_wzmtvilfh_wvhvirzorazgrlm=Gifv)&#10;     vohv:&#10;         kirmg(&quot;向量数据库文件不存在，创建新的向量数据库...&quot;)&#10;         uzj_wlxh = olzw_uzj_wlxh(XHE_KZGS)&#10;         evxglihgliv = UZRHH.uiln_wlxfnvmgh(uzj_wlxh, vnyvwwrmt_nlwvo)&#10;         evxglihgliv.hzev_olxzo(UZRHH_KZGS)&#10;     ```&#10;&#10;5. **异常处理**：&#10;   - 使用 `gib-vcxvkg` 块捕获 `UrovMlgUlfmwViili` 异常，并给出更友好的错误信息。&#10;   - 例如：&#10;     ```kbgslm&#10;     rnklig lh&#10;     gib:&#10;         evxglihgliv = UZRHH.olzw_olxzo(UZRHH_KZGS, vnyvwwrmt_nlwvo, zoold_wzmtvilfh_wvhvirzorazgrlm=Gifv)&#10;     vcxvkg UrovMlgUlfmwViili zh v:&#10;         kirmg(u&quot;无法加载向量数据库文件: {v}&quot;)&#10;         kirmg(u&quot;请检查路径: {UZRHH_KZGS}&quot;)&#10;         # 创建新的向量数据库&#10;         uzj_wlxh = olzw_uzj_wlxh(XHE_KZGS)&#10;         evxglihgliv = UZRHH.uiln_wlxfnvmgh(uzj_wlxh, vnyvwwrmt_nlwvo)&#10;         evxglihgliv.hzev_olxzo(UZRHH_KZGS)&#10;     ```&#10;&#10;通过以上步骤，你可以确保在加载向量数据库时，路径是正确的，并且文件存在。如果文件不存在，代码会创建新的向量数据库文件。这样可以避免 `Ml hfxs urov li wrivxglib` 错误。" />
+                  <option name="chatResource" value="user" />
+                  <option name="codeReferences">
+                    <list>
+                      <CodeReferencesBean>
+                        <option name="content" value="        tolyzo evxglihgliv, ivgirvevi&#10;        # 创建一个空的向量存储并保存到磁盘&#10;        vnkgb_wlxh = [Wlxfnvmg(kztv_xlmgvmg=&quot;&quot;)]&#10;        evxglihgliv = UZRHH.uiln_wlxfnvmgh(vnkgb_wlxh, vnyvwwrmt_nlwvo)&#10;        evxglihgliv.hzev_olxzo(UZRHH_KZGS)&#10;        ivgirvevi = evxglihgliv.zh_ivgirvevi(hvzixs_pdzith={&quot;p&quot;: 6})&#10;        &#10;        ivgfim {&quot;hfxxvhh&quot;: Gifv, &quot;nvhhztv&quot;: &quot;XHE文件已重置并清空了向量数据库&quot;}&#10;    &#10;    vcxvkg Vcxvkgrlm zh v:&#10;        ivgfim {&quot;hfxxvhh&quot;: Uzohv, &quot;nvhhztv&quot;: u&quot;删除XHE文件时出错: {hgi(v)}&quot;}&#10;&#10;# === 构建Ivgirvevi ===&#10;vnyvwwrmt_nlwvo = SfttrmtUzxvVnyvwwrmth(nlwvo_mznv=&quot;zoo-NrmrON-O3-e7&quot;)&#10;ru lh.kzgs.vcrhgh(UZRHH_KZGS):&#10;    kirmg(&quot; 加载已有向量数据库...&quot;)&#10;    evxglihgliv = UZRHH.olzw_olxzo(&#10;        UZRHH_KZGS,&#10;        vnyvwwrmt_nlwvo,&#10;        zoold_wzmtvilfh_wvhvirzorazgrlm=Gifv&#10;    )&#10;vohv:&#10;    kirmg(&quot;⚡ 首次构建向量数据库...&quot;)&#10;    uzj_wlxh = olzw_uzj_wlxh(XHE_KZGS)&#10;    evxglihgliv = UZRHH.uiln_wlxfnvmgh(uzj_wlxh, vnyvwwrmt_nlwvo)&#10;    evxglihgliv.hzev_olxzo(UZRHH_KZGS)&#10;&#10;ivgirvevi = evxglihgliv.zh_ivgirvevi(hvzixs_pdzith={&quot;p&quot;: 6})&#10;&#10;" />
+                        <option name="end_line" value="150" />
+                        <option name="filename" value="rag.py" />
+                        <option name="language" value="Python" />
+                        <option name="range">
+                          <Range>
+                            <option name="end">
+                              <Position>
+                                <option name="line" value="150" />
+                              </Position>
+                            </option>
+                            <option name="start">
+                              <Position>
+                                <option name="line" value="121" />
+                              </Position>
+                            </option>
+                          </Range>
+                        </option>
+                        <option name="start_line" value="121" />
+                        <option name="type" value="editor" />
+                        <option name="url" value="file:///D:/Desktop/文件归档/_PythonAI学习计划/项目/3%20简单项目FAQ/app/services/rag.py" />
+                      </CodeReferencesBean>
+                    </list>
+                  </option>
+                  <option name="command" value="" />
+                  <option name="conversationId" value="019888b134427ddda7695680556d4e64" />
+                  <option name="historyDocumentMap">
+                    <map>
+                      <entry key="file:///D:/Desktop/文件归档/_PythonAI学习计划/项目/3%20简单项目FAQ/app/services/rag.py" value="import pandas as pd&#10;import os&#10;import shutil&#10;from typing import List, Dict&#10;from fastapi import UploadFile&#10;from langchain_community.vectorstores import FAISS&#10;from langchain_huggingface import HuggingFaceEmbeddings&#10;from langchain.docstore.document import Document&#10;import pathlib&#10;&#10;# 定义数据路径 - 使用绝对路径&#10;BASE_DIR = pathlib.Path(__file__).parent.parent.parent.absolute()&#10;DATA_DIR = os.path.join(BASE_DIR, &quot;data&quot;)&#10;CSV_PATH = os.path.join(DATA_DIR, &quot;faq.csv&quot;)&#10;FAISS_PATH = os.path.join(DATA_DIR, &quot;faq_faiss&quot;)&#10;&#10;# === 载入数据 ===&#10;def load_faq_docs(csv_path: str = CSV_PATH) -&gt; List[Document]:&#10;    df = pd.read_csv(csv_path)&#10;    docs = []&#10;    for _, row in df.iterrows():&#10;        content = f&quot;Q: {row['question']}\nA: {row['answer']}&quot;&#10;        docs.append(Document(page_content=content))&#10;    return docs&#10;&#10;# === 上传CSV并更新向量数据库 ===&#10;async def upload_csv_and_update_db(file: UploadFile) -&gt; Dict:&#10;    &quot;&quot;&quot;&#10;    上传CSV文件并更新向量数据库&#10;    &#10;    Args:&#10;        file: 上传的CSV文件&#10;        &#10;    Returns:&#10;        包含操作结果的字典&#10;    &quot;&quot;&quot;&#10;    # 确保数据目录存在&#10;    os.makedirs(DATA_DIR, exist_ok=True)&#10;    &#10;    # 保存上传的文件&#10;    temp_file_path = f&quot;{DATA_DIR}/temp_{file.filename}&quot;&#10;    &#10;    try:&#10;        # 写入临时文件&#10;        with open(temp_file_path, &quot;wb&quot;) as buffer:&#10;            content = await file.read()&#10;            buffer.write(content)&#10;        &#10;        # 验证CSV格式是否正确（至少包含question和answer列）&#10;        try:&#10;            df = pd.read_csv(temp_file_path)&#10;            if &quot;question&quot; not in df.columns or &quot;answer&quot; not in df.columns:&#10;                os.remove(temp_file_path)&#10;                return {&quot;success&quot;: False, &quot;message&quot;: &quot;CSV文件必须包含'question'和'answer'列&quot;}&#10;            if df.empty:&#10;                return {&quot;success&quot;: False, &quot;message&quot;: &quot;CSV文件不包含任何数据&quot;}&#10;        except Exception as e:&#10;            os.remove(temp_file_path)&#10;            return {&quot;success&quot;: False, &quot;message&quot;: f&quot;CSV文件格式错误: {str(e)}&quot;}&#10;        &#10;        # 备份原始文件（如果存在）&#10;        if os.path.exists(CSV_PATH):&#10;            backup_path = f&quot;{CSV_PATH}.bak&quot;&#10;            shutil.copy2(CSV_PATH, backup_path)&#10;        &#10;        # 替换原始文件&#10;        shutil.move(temp_file_path, CSV_PATH)&#10;        &#10;        # 删除旧的向量数据库&#10;        if os.path.exists(FAISS_PATH):&#10;            shutil.rmtree(FAISS_PATH)&#10;        &#10;        # 创建新的向量数据库&#10;        faq_docs = load_faq_docs(CSV_PATH)&#10;        &#10;        # 更新全局变量&#10;        global vectorstore, retriever&#10;        vectorstore = FAISS.from_documents(faq_docs, embedding_model)&#10;        vectorstore.save_local(FAISS_PATH)&#10;        retriever = vectorstore.as_retriever(search_kwargs={&quot;k&quot;: 3})&#10;        &#10;        return {&#10;            &quot;success&quot;: True, &#10;            &quot;message&quot;: &quot;CSV文件上传成功并更新了向量数据库&quot;, &#10;            &quot;document_count&quot;: len(faq_docs)&#10;        }&#10;    &#10;    except Exception as e:&#10;        # 清理临时文件&#10;        if os.path.exists(temp_file_path):&#10;            os.remove(temp_file_path)&#10;        return {&quot;success&quot;: False, &quot;message&quot;: f&quot;处理CSV文件时出错: {str(e)}&quot;}&#10;&#10;# === 删除CSV文件 ===&#10;def delete_csv() -&gt; Dict:&#10;    &quot;&quot;&quot;&#10;    删除CSV文件并清理向量数据库&#10;    &#10;    Returns:&#10;        包含操作结果的字典&#10;    &quot;&quot;&quot;&#10;    try:&#10;        # 检查文件是否存在&#10;        if not os.path.exists(CSV_PATH):&#10;            return {&quot;success&quot;: False, &quot;message&quot;: &quot;CSV文件不存在&quot;}&#10;        &#10;        # 备份文件&#10;        backup_path = f&quot;{CSV_PATH}.bak&quot;&#10;        shutil.copy2(CSV_PATH, backup_path)&#10;        &#10;        # 创建空的CSV文件&#10;        with open(CSV_PATH, &quot;w&quot;) as f:&#10;            f.write(&quot;question,answer\n&quot;)&#10;        &#10;        # 完全删除向量数据库&#10;        if os.path.exists(FAISS_PATH):&#10;            shutil.rmtree(FAISS_PATH)&#10;            # 确保目录存在但为空&#10;            os.makedirs(FAISS_PATH, exist_ok=True)&#10;        &#10;        # 重置全局变量&#10;        global vectorstore, retriever&#10;        # 创建一个空的向量存储并保存到磁盘&#10;        empty_docs = [Document(page_content=&quot;&quot;)]&#10;        vectorstore = FAISS.from_documents(empty_docs, embedding_model)&#10;        vectorstore.save_local(FAISS_PATH)&#10;        retriever = vectorstore.as_retriever(search_kwargs={&quot;k&quot;: 3})&#10;        &#10;        return {&quot;success&quot;: True, &quot;message&quot;: &quot;CSV文件已重置并清空了向量数据库&quot;}&#10;    &#10;    except Exception as e:&#10;        return {&quot;success&quot;: False, &quot;message&quot;: f&quot;删除CSV文件时出错: {str(e)}&quot;}&#10;&#10;# === 构建Retriever ===&#10;embedding_model = HuggingFaceEmbeddings(model_name=&quot;all-MiniLM-L6-v2&quot;)&#10;if os.path.exists(FAISS_PATH):&#10;    print(&quot; 加载已有向量数据库...&quot;)&#10;    vectorstore = FAISS.load_local(&#10;        FAISS_PATH,&#10;        embedding_model,&#10;        allow_dangerous_deserialization=True&#10;    )&#10;else:&#10;    print(&quot;⚡ 首次构建向量数据库...&quot;)&#10;    faq_docs = load_faq_docs(CSV_PATH)&#10;    vectorstore = FAISS.from_documents(faq_docs, embedding_model)&#10;    vectorstore.save_local(FAISS_PATH)&#10;&#10;retriever = vectorstore.as_retriever(search_kwargs={&quot;k&quot;: 3})&#10;&#10;" />
+                    </map>
+                  </option>
+                  <option name="messageId" value="019888b660297ddda76961ca84098c56" />
+                  <option name="question" value="W:\Vmerilmnvmg\Zmzxlmwz\vmeh\ZR688\kbgslm.vcv &quot;W:\Wvhpglk\文件归档\_KbgslmZR学习计划\项目\6 简单项目UZJ\zkk\nzrm.kb&quot; &#10; 加载已有向量数据库...&#10;Gizxvyzxp (nlhg ivxvmg xzoo ozhg):&#10;  Urov &quot;W:\Wvhpglk\文件归档\_KbgslmZR学习计划\项目\6 简单项目UZJ\zkk\nzrm.kb&quot;, ormv 8, rm &lt;nlwfov&gt;&#10;    uiln zkk.zkr.zkr rnklig zkk&#10;  Urov &quot;W:\Wvhpglk\文件归档\_KbgslmZR学习计划\项目\6 简单项目UZJ\zkk\zkr\zkr.kb&quot;, ormv 4, rm &lt;nlwfov&gt;&#10;    uiln zkk.hvierxvh.oon_hvierxv rnklig tvmvizgv_zmhdvi_hgivzn&#10;  Urov &quot;W:\Wvhpglk\文件归档\_KbgslmZR学习计划\项目\6 简单项目UZJ\zkk\hvierxvh\oon_hvierxv.kb&quot;, ormv 4, rm &lt;nlwfov&gt;&#10;    uiln zkk.hvierxvh.izt rnklig ivgirvevi&#10;  Urov &quot;W:\Wvhpglk\文件归档\_KbgslmZR学习计划\项目\6 简单项目UZJ\zkk\hvierxvh\izt.kb&quot;, ormv 861, rm &lt;nlwfov&gt;&#10;    evxglihgliv = UZRHH.olzw_olxzo(&#10;                  ^^^^^^^^^^^^^^^^^&#10;  Urov &quot;W:\Vmerilmnvmg\Zmzxlmwz\vmeh\ZR688\Ory\hrgv-kzxpztvh\ozmtxszrm_xlnnfmrgb\evxglihglivh\uzrhh.kb&quot;, ormv 8794, rm olzw_olxzo&#10;    rmwvc = uzrhh.ivzw_rmwvc(hgi(kzgs / u&quot;{rmwvc_mznv}.uzrhh&quot;))&#10;            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;  Urov &quot;W:\Vmerilmnvmg\Zmzxlmwz\vmeh\ZR688\Ory\hrgv-kzxpztvh\uzrhh\hdrtuzrhh_zec7.kb&quot;, ormv 88858, rm ivzw_rmwvc&#10;    ivgfim _hdrtuzrhh_zec7.ivzw_rmwvc(*zith)&#10;           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&#10;IfmgrnvViili: Viili rm __xwvxo uzrhh::UrovRLIvzwvi::UrovRLIvzwvi(xlmhg xszi *) zg W:\z\uzrhh-dsvvoh\uzrhh-dsvvoh\uzrhh\uzrhh\rnko\rl.xkk:31: Viili: 'u' uzrovw: xlfow mlg lkvm W:\Wvhpglk\文件归档\_KbgslmZR学习计划\项目\6 简单项目UZJ\wzgz\uzj_uzrhh\rmwvc.uzrhh uli ivzwrmt: Ml hfxs urov li wrivxglib&#10;" />
+                  <option name="rating" value="UNRATED" />
+                  <option name="referenceBeans">
+                    <list />
+                  </option>
+                  <option name="status" value="SUCCESS" />
+                  <option name="variables">
+                    <list />
+                  </option>
+                </Turn>
+              </list>
+            </option>
+            <option name="updateTime" value="1754640322450" />
+          </Conversation>
+        </option>
+      </WebConversation>
+    </option>
+  </component>
+</project>

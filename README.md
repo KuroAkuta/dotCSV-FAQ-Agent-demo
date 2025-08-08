@@ -5,7 +5,7 @@
 
 ## 使用：
 **使用前需配置LLM api。如：**
-1. 在阿里百炼平台注册api key
+1. 在[阿里百炼平台](https://bailian.console.aliyun.com/?tab=model#/api-key)注册api key
 2. 配置环境变量 变量名：aliQwen-api 变量值：你的API KEY
 
 **版本：**
